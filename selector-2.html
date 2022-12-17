@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div span{
+            background-color: antiquewhite;
+        }
+        
+        div > span{
+            background-color: rgb(97, 97, 226);
+        }
+        
+        div + section{
+            background-color: brown;
+        } 
+
+        .es ~ section{
+            background-color: rgb(128, 161, 37);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <span>Platzi 
+            <span>Platzi2</span> 
+        </span>
+    </div>
+    <section>
+        Section1
+    </section>
+    <section class="es">
+        Section2
+    </section>
+    <section >
+        Section3
+    </section>
+    <section>
+        Section4
+    </section>
+</body>
+</html>
